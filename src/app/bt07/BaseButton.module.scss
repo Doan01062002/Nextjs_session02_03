@@ -1,0 +1,46 @@
+// components/BaseButton.module.scss
+.baseButton {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: none;
+  
+    &.success {
+      color: #fff;
+      background-color: #4CAF50;
+  
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  
+    &.warning {
+      color: #fff;
+      background-color: #FF9800;
+  
+      &:hover {
+        background-color: #e68a00;
+      }
+    }
+  
+    &.danger {
+      color: #fff;
+      background-color: #F44336;
+  
+      &:hover {
+        background-color: #e53935;
+      }
+    }
+  
+    &.primary {
+      color: #fff;
+      background-color: #2557BF;
+  
+      &:hover {
+        background-color: #1d4496;
+      }
+    }
+  }
